@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0a5170a-258d-4c46-9f57-dcd34e560c90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a0a5170a-258d-4c46-9f57-dcd34e560c90" name="Changes" comment="Added calculator Engine + unit tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculatorProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/CalculationEngine/Engine/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/CalculationEngine/Engine/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/CalculationEngine/test/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/CalculationEngine/test/CalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculationEngine/Engine/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculationEngine/Engine/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CalculationEngine/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculationEngine/test/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\загрузки\Java-Labs-main (1)\Java-Labs-main\CalculatorProject" />
       <recent name="D:\загрузки\Java-Labs-main (1)\Java-Labs-main\CalculatorProject\src\CalculationEngine" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -60,7 +62,14 @@
       <recent name="CalculationEngine.Engine" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CalculatorProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CalculatorProject" />
       <extension name="coverage">
@@ -87,22 +96,6 @@
       <option name="PACKAGE_NAME" value="CalculationEngine.test" />
       <option name="MAIN_CLASS_NAME" value="CalculationEngine.test.CalculatorTest" />
       <option name="METHOD_NAME" value="calculateExpression" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InfixToPostfixTest.infixToPostfix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CalculatorProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CalculationEngine.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CalculationEngine.Engine" />
-      <option name="MAIN_CLASS_NAME" value="CalculationEngine.Engine.InfixToPostfixTest" />
-      <option name="METHOD_NAME" value="infixToPostfix" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CalculatorTest.calculateExpression" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.PostfixEvaluateTest" />
         <item itemvalue="JUnit.PostfixEvaluateTest.evaluatePostfix" />
-        <item itemvalue="JUnit.InfixToPostfixTest.infixToPostfix" />
       </list>
     </recent_temporary>
   </component>
@@ -158,8 +151,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668357000174</updated>
-      <workItem from="1668357001516" duration="5480000" />
+      <workItem from="1668357001516" duration="9237000" />
     </task>
+    <task id="LOCAL-00001" summary="Added calculator Engine + unit tests">
+      <created>1668372083403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668372083403</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +176,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added calculator Engine + unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added calculator Engine + unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

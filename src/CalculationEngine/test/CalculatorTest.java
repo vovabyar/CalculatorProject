@@ -11,6 +11,8 @@ class CalculatorTest {
     @Test
     void calculateExpression() {
         Assertions.assertEquals("4.0", Calculator.calculateExpression("4"));
+        assertEquals("", Calculator.calculateExpression(""));
+        assertEquals("", Calculator.calculateExpression(" "));
         assertEquals("-4.0", Calculator.calculateExpression("-4"));
         assertEquals("5.0", Calculator.calculateExpression("4 + 1"));
         assertEquals("3.0", Calculator.calculateExpression("4 + -1"));

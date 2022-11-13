@@ -87,6 +87,7 @@ public class Calculator {
         if (error != null) {
             return error;
         } else {
+            if (result.size() == 0) return "";
             return result.pop().toString();
         }
     }
