@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class Calculator {
 
-    public static final String DIVIZION_BY_ZERO = "Divizion by zero";
+    public static final String divizionByZero = "Divizion by zero";
 
     private static final Set<Character> PLUS_MINUS = new HashSet<>() {{
         add('+');
@@ -47,7 +47,7 @@ public class Calculator {
                         double p1 = result.pop();
 
                         if (p2 == 0) {
-                            error = DIVIZION_BY_ZERO;
+                            error = divizionByZero;
                             break loop;
                         }
 

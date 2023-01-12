@@ -1,11 +1,13 @@
 import CalculationEngine.Engine.Calculator;
-import FileWorker.ReaderAndWriter;
+import Utilities.FileEncryption;
+import Exceptions.FileEncryptionException;
+import Utilities.FileWorker.ReaderAndWriter;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileEncryptionException {
         ReaderAndWriter readWrite = new ReaderAndWriter();
         String text = readWrite.read("test.txt");
 
@@ -26,5 +28,7 @@ public class Main {
             }
         }
         readWrite.write("out.txt", text);
+        //new FileEncryption("ou1t.zip.enc", "123", FileEncryption.DECRYPT_MODE).start();
+
     }
 }
