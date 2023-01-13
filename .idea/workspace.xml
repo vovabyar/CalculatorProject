@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0a5170a-258d-4c46-9f57-dcd34e560c90" name="Changes" comment="Added Encryption &amp; Zipping operations. Added strategy pattern. Some mistakes was fixed.">
+    <list default="true" id="a0a5170a-258d-4c46-9f57-dcd34e560c90" name="Changes" comment="multi-level archiving &amp; encryption added!">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/googlecode_json_simple.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ou1t.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ou1t.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ou1t.zip.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileEncryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileEncryption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/IData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/IData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/IData.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/ReaderAndWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/ReaderAndWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/Context.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/OperationReadAndWriteJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/OperationReadAndWriteJSON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/OperationReadAndWriteTXT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/OperationReadAndWriteTXT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/OperationReadAndWriteXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/OperationReadAndWriteXML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/Strategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/ZipUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/ZipUtilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/OperationReadAndWriteJSON.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/OperationReadAndWriteTXT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/Strategy/OperationReadAndWriteXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/TestZipUtilities.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilities/FileEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/FileEncryption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utilities/FileWorker/ReaderAndWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/FileWorker/ReaderAndWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/OperationReadAndWriteJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/OperationReadAndWriteJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/OperationReadAndWriteTXT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/OperationReadAndWriteTXT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/OperationReadAndWriteXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/OperationReadAndWriteXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilities/TestZipUtilities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilities/ZipUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/ZipUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/OperationReadAndWriteJSON.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/OperationReadAndWriteTXT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/FileWorker/Strategy/OperationReadAndWriteXML.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt.encrypted" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt.encrypted.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt.encrypted.zip.encrypted" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt.encrypted.zip.encrypted.encrypted" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +64,7 @@
     "create.test.in.the.same.root": "true",
     "last_opened_file_path": "D:/загрузки/Java-Labs-main (1)/Java-Labs-main/CalculatorProject/src",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
@@ -81,10 +74,11 @@
       <recent name="D:\загрузки\Java-Labs-main (1)\Java-Labs-main\CalculatorProject\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\загрузки\Java-Labs-main (1)\Java-Labs-main\CalculatorProject\src\Utilities\FileWorker\Parsing\XMLImplementation" />
+      <recent name="D:\загрузки\Java-Labs-main (1)\Java-Labs-main\CalculatorProject\src\Utilities\FileWorker\Parsing" />
       <recent name="D:\загрузки\Java-Labs-main (1)\Java-Labs-main\CalculatorProject\src" />
       <recent name="D:\загрузки\Java-Labs-main (1)\Java-Labs-main\CalculatorProject\src\ziputilities\enc" />
       <recent name="D:\загрузки\Java-Labs-main (1)\Java-Labs-main\CalculatorProject" />
-      <recent name="D:\загрузки\Java-Labs-main (1)\Java-Labs-main\CalculatorProject\src\CalculationEngine" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -93,6 +87,7 @@
       <recent name="CalculationEngine.Engine" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Utilities.FileWorker.Parsing.JSON" />
       <recent name="Utilities.FileWorker.Strategy" />
       <recent name="FileWorker.Strategy" />
     </key>
@@ -165,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.TestZipUtilities" />
         <item itemvalue="JUnit.CalculatorTest.calculateExpression" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +180,7 @@
       <workItem from="1670660233735" duration="614000" />
       <workItem from="1670664080451" duration="951000" />
       <workItem from="1670754452892" duration="318000" />
-      <workItem from="1673516072193" duration="29137000" />
+      <workItem from="1673516072193" duration="48918000" />
     </task>
     <task id="LOCAL-00001" summary="Added calculator Engine + unit tests">
       <created>1668372083403</created>
@@ -201,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673555403045</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="multi-level archiving &amp; encryption added!">
+      <created>1673572519946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673572519946</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,30 +224,16 @@
     <MESSAGE value="Added calculator Engine + unit tests" />
     <MESSAGE value="Added Enncryption &amp; Zipping operations. Some mistakes fixed" />
     <MESSAGE value="Added Encryption &amp; Zipping operations. Added strategy pattern. Some mistakes was fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Encryption &amp; Zipping operations. Added strategy pattern. Some mistakes was fixed." />
+    <MESSAGE value="multi-level archiving &amp; encryption added!" />
+    <option name="LAST_COMMIT_MESSAGE" value="multi-level archiving &amp; encryption added!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CalculationEngine/Engine/Calculator.java</url>
-          <line>106</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CryptographyUtils/Encryptor.java</url>
           <line>23</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Utilities/FileWorker/ReaderAndWriter.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Utilities/FileEncryption.java</url>
-          <line>261</line>
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
