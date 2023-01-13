@@ -1,5 +1,7 @@
 package Utilities.FileWorker.Strategy;
 
+import java.io.File;
+
 public class Context {
     private Strategy strategy;
 
@@ -7,7 +9,7 @@ public class Context {
         this.strategy = strategy;
     }
 
-    public String executeStrategy(String fileName){
-        return strategy.doOperation(fileName);
+    public File executeStrategy(String fileName, boolean isRead)  {
+        return strategy.doOperation(fileName, isRead);
     }
 }

@@ -49,7 +49,7 @@ public class FileEncryption {
     /**
      * Encrypted files extension
      */
-    private final static String FILE_EXTENSION = ".enc";
+    private final static String FILE_EXTENSION = ".encrypted";
 
     /**
      * Buffer length used while encrypting/decrypting
@@ -160,13 +160,16 @@ public class FileEncryption {
      * @param fileName the original fileName
      * @return the accurate destination file
      */
-    private File getDestinationFile(String fileName, byte mode) {
+    public File getDestinationFile(String fileName, byte mode) {
         File temp = new File(fileName);
-        for (int i = 1; temp.exists(); i++) {
-            fileName = mode == ENCRYPT_MODE ? createAlternativeFileNameToEncrypt(i) : createAlternativeFileNameToDecrypt(i);
+            fileName = mode == ENCRYPT_MODE ? createAlternativeFileNameToEncrypt(0) : createAlternativeFileNameToDecrypt(0);
             temp = new File(fileName);
-        }
+
         return temp;
+    }
+
+    public File getFile() {
+        return file;
     }
 
     /**
@@ -304,7 +307,7 @@ public class FileEncryption {
             sb.append(file.getParent()).append(File.separator); // Like "C:/.../.../"
         }
         // Adds "(i) " on the beggining as well as the extension
-        sb.append("(").append(i).append(") ").append(file.getName()).append(FILE_EXTENSION);
+        sb.append(file.getName()).append(FILE_EXTENSION);
         return sb.toString();
     }
 
@@ -314,7 +317,7 @@ public class FileEncryption {
             sb.append(file.getParent()).append(File.separator); // Like "C:/.../.../"
         }
         // Adds "(i) " on the beggining as well as removing the extension
-        sb.append("(").append(i).append(") ").append(file.getName().substring(0, file.getName().lastIndexOf(FILE_EXTENSION)));
+        sb.append(file.getName().substring(0, file.getName().lastIndexOf(FILE_EXTENSION)));
         return sb.toString();
     }
 

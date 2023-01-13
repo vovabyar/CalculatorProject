@@ -22,6 +22,9 @@ public class ZipUtilities {
 
 	private static ZipUtilities instance;
 
+	private File fileToGet;
+
+
 	public static ZipUtilities getInstance() {
 		if (instance == null) {
 			instance = new ZipUtilities();
@@ -62,7 +65,8 @@ public class ZipUtilities {
 
 	}
 
-	public void unzip(String filename) throws IOException {
+	public String unzip(String filename) throws IOException {
+		String newFileName = "";
 		File destDir = new File("./");
 		byte[] buffer = new byte[1024];
 		ZipInputStream zis = new ZipInputStream(new FileInputStream(filename));
@@ -76,6 +80,7 @@ public class ZipUtilities {
 			} else {
 				// fix for Windows-created archives
 				File parent = newFile.getParentFile();
+				newFileName = newFile.getName();
 				if (!parent.isDirectory() && !parent.mkdirs()) {
 					throw new IOException("Failed to create directory " + parent);
 				}
@@ -92,6 +97,7 @@ public class ZipUtilities {
 		}
 		zis.closeEntry();
 		zis.close();
+		return newFileName;
 	}
 	public static File newFile(File destinationDir, ZipEntry zipEntry) throws IOException {
 		File destFile = new File(destinationDir, zipEntry.getName());
@@ -109,7 +115,7 @@ public class ZipUtilities {
 	 * Compress a given directory recursively and store the zip in the provided
 	 * directory name
 	 * 
-	 * @param directoryToZip
+	 * @param fileDirectory
 	 */
 	public void compressDirectory(String fileDirectory,
 			String savedZipFileDirectory) {

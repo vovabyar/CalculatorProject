@@ -1,6 +1,8 @@
 package Utilities.FileWorker.Strategy;
 
+import java.io.File;
+
 public interface Strategy {
-    public String doOperation(String fileName);
+    public File doOperation(String fileName, boolean isRead);
 
 }
