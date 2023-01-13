@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0a5170a-258d-4c46-9f57-dcd34e560c90" name="Changes" comment="Big changes in the project structure. Operations with JSON was added." />
+    <list default="true" id="a0a5170a-258d-4c46-9f57-dcd34e560c90" name="Changes" comment="Small improve">
+      <change afterPath="$PROJECT_DIR$/src/Utilities/FileWorker/Parsing/XML/XMLOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/ReaderAndWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalculatorProject/Utilities/FileWorker/ReaderAndWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/FileWorker/Parsing/ParseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/FileWorker/Parsing/ParseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/FileWorker/ReaderAndWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/FileWorker/ReaderAndWriter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +74,7 @@
       <recent name="CalculationEngine.Engine" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Utilities.FileWorker.Parsing.XML" />
       <recent name="Utilities.FileWorker.Parsing.JSON" />
       <recent name="Utilities.FileWorker.Strategy" />
       <recent name="FileWorker.Strategy" />
@@ -159,7 +168,7 @@
       <workItem from="1670660233735" duration="614000" />
       <workItem from="1670664080451" duration="951000" />
       <workItem from="1670754452892" duration="318000" />
-      <workItem from="1673516072193" duration="49227000" />
+      <workItem from="1673516072193" duration="52043000" />
     </task>
     <task id="LOCAL-00001" summary="Added calculator Engine + unit tests">
       <created>1668372083403</created>
@@ -189,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673641125397</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Big changes in the project structure. Operations with JSON was added.">
+      <created>1673641309264</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673641309264</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Small improve">
+      <created>1673641404062</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673641404062</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +235,8 @@
     <MESSAGE value="Added Encryption &amp; Zipping operations. Added strategy pattern. Some mistakes was fixed." />
     <MESSAGE value="multi-level archiving &amp; encryption added!" />
     <MESSAGE value="Big changes in the project structure. Operations with JSON was added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Big changes in the project structure. Operations with JSON was added." />
+    <MESSAGE value="Small improve" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small improve" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -221,6 +245,11 @@
           <url>file://$PROJECT_DIR$/src/CryptographyUtils/Encryptor.java</url>
           <line>23</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Utilities/FileWorker/Parsing/XML/XMLOperations.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

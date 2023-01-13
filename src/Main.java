@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) throws FileEncryptionException, IOException {
         ReaderAndWriter readWrite = new ReaderAndWriter();
         //readWrite.process("test.txt.encrypted.zip.encrypted.encrypted.encrypted");
-        readWrite.process("input.json.encrypted.encrypted.encrypted.zip.encrypted");
+        readWrite.process("input.xml");
 
        // readWrite.write("out.txt", text);
         //new FileEncryption("input.json.encrypted.encrypted.encrypted.zip.encrypted", "123", FileEncryption.ENCRYPT_MODE).start();

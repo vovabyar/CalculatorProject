@@ -14,7 +14,9 @@ public class ReaderAndWriter {
         file = new File(filename);
 
         String result = "";
-        while(!FileUtilities.getFileExtension(file).equals("json") ) {
+        while((!FileUtilities.getFileExtension(file).equals("txt")
+        && !FileUtilities.getFileExtension(file).equals("json")
+        && !FileUtilities.getFileExtension(file).equals("xml"))) {
 
             switch (FileUtilities.getFileExtension(file)) {
                 case "zip":
