@@ -50,15 +50,5 @@ public class JSONOperations {
                 e.printStackTrace();
             }
         }
-
-        //        try
-//        {
-//            FileWriter writer = new FileWriter(outFileName, false);
-//            writer.write(text);
-//            writer.flush();
-//        }
-//        catch(IOException ex){
-//            System.out.println(ex.getMessage());
-//        }
     }
 }
